@@ -1,5 +1,6 @@
 package com.example.HardwareStepByStep.domain;
 
+import com.example.HardwareStepByStep.dto.HardwareDTO;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -25,13 +26,13 @@ public class Hardware {
     private long stock;
     private BigDecimal price;
 
-   /* public Hardware(HardwareDTO hardwareDTO) {
+   public Hardware(HardwareDTO hardwareDTO) {
         this.name = hardwareDTO.getName();
         this.type = hardwareDTO.getType();
         this.code = hardwareDTO.getCode();
         this.stock = hardwareDTO.getStock();
         this.price = hardwareDTO.getPrice();
-    }*/
+    }
 
     @Override
     public boolean equals(Object o) {
