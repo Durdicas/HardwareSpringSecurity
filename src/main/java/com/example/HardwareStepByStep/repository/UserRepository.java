@@ -2,7 +2,7 @@ package com.example.HardwareStepByStep.repository;
 
 
 
-import com.example.hardwarestepbystep.domain.UserInfo;
+import com.example.HardwareStepByStep.domain.UserInfo;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
